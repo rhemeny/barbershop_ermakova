@@ -1,14 +1,20 @@
-body { 
-	font-size: 14px;
-	font-family: PTSans;
-	font-weight: bold;
-	line-height: 24px;
-	color: black;
-
-
-
+html,
+body {
+min-width: 960px;
+min-height:1175px;
+margin: 0;
+padding: 0;
+  
+font-size: 14px;
+font-family: PTSans;
+font-weight: bold;
+line-height: 24px;
+color: black;
 }
-
+body {
+  background: #000000 url("../img/b_shop.jpg") no-repeat 50% 3px;
+  background-size: 1200px auto;
+}
 
 h1 {
 	font-size: 30px;
@@ -25,4 +31,184 @@ h2 {
 	font-weight: bold;
 	color: black;
 
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.main-header {
+margin-bottom:60px;
+}
+
+.container {
+width:940px;
+margin: 0 auto;
+padding: 0 10px;
+background-color:red;
+}
+
+.main-navigation {
+float: left; 
+width: 780px;
+min-height: 70px;
+background-color:yellow;
+}
+
+.user-block {
+float: right;
+width: 140px;
+min-height: 70px;
+background-color:blue;
+}
+
+.index-logo {
+  background-color:green;
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.breadcrumbs {
+width:625px;
+height: 115px;
+background-color:violet;
+margin-top:-90px;
+}
+
+.features:{margin-bottom: 80px;
+}
+.features-item {
+margin-right: 20px;
+float:left;
+background-color: brown;
+width: 300px;
+ min-height: 175px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.index-content-left {
+width: 380px;
+background-color:violet;
+float:left;
+min-height: 330px;
+}
+
+.index-content-right {
+background-color:violet;
+float: right;
+width: 300px;
+min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.item-content-left {
+background-color: blue;
+width:460px;
+height:710px;
+float:left;
+
+}
+
+.item-content-right {
+background-color: blue;
+width:390px;
+height:535px;
+float:right;
+}
+
+.product-large {
+width:460px;
+height:514px;
+}
+
+.product-thumbnail {
+background-color: yellow;
+width:460px;
+height:168px;
+margin-top: 30px;
+margin-left:5px;
+}
+
+.product-thumbnail:last-child {
+  margin-right: 0;
+}
+.product-image-thumbnail {
+margin-right:10px;
+}
+
+.shop-content-left{
+float: left;
+width:180px;
+height:590px;
+background-color:yellow;
+}
+
+.shop-content-right {
+float:right;
+width:720px;
+height:590px;
+background-color:yellow;
+
+}
+.item {
+position:relative;
+display:inline-block;
+vertical-align: top;
+width: 220px;
+min-height: 200px;
+margin-right: 10px;
+margin-bottom: 15px;
+padding-left: 5px;
+}
+
+.pagination {
+width:220px;
+height:60px;
+background: blue;
+margin-top: 106px;
+margin-bottom:140px;
 }
